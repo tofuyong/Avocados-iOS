@@ -46,11 +46,11 @@
 		DE8664C32AAEE8FE00682E7C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DEF6F07E2AAE876F0042E23B /* ContentView.swift */,
+				DE8664CA2AAEE98E00682E7C /* AppView.swift */,
 				DE8664C42AAEE93300682E7C /* AvocadosView.swift */,
+				DEF6F07E2AAE876F0042E23B /* ContentView.swift */,
 				DE8664C62AAEE95500682E7C /* RipeningStagesView.swift */,
 				DE8664C82AAEE97300682E7C /* SettingsView.swift */,
-				DE8664CA2AAEE98E00682E7C /* AppView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
