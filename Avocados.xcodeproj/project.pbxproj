@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE19E3862AB038B9003A1CBE /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19E3852AB038B9003A1CBE /* DishesView.swift */; };
 		DE8664C52AAEE93300682E7C /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8664C42AAEE93300682E7C /* AvocadosView.swift */; };
 		DE8664C72AAEE95500682E7C /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8664C62AAEE95500682E7C /* RipeningStagesView.swift */; };
 		DE8664C92AAEE97300682E7C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8664C82AAEE97300682E7C /* SettingsView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE19E3852AB038B9003A1CBE /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		DE8664C42AAEE93300682E7C /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
 		DE8664C62AAEE95500682E7C /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		DE8664C82AAEE97300682E7C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				DE8664C62AAEE95500682E7C /* RipeningStagesView.swift */,
 				DE8664C82AAEE97300682E7C /* SettingsView.swift */,
 				DE8664CE2AAF021C00682E7C /* HeaderView.swift */,
+				DE19E3852AB038B9003A1CBE /* DishesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				DE8664C52AAEE93300682E7C /* AvocadosView.swift in Sources */,
 				DE8664D22AAF0EA300682E7C /* HeaderModel.swift in Sources */,
 				DE8664D52AAF0F1A00682E7C /* HeaderData.swift in Sources */,
+				DE19E3862AB038B9003A1CBE /* DishesView.swift in Sources */,
 				DE8664CF2AAF021C00682E7C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
