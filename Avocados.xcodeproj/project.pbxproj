@@ -13,6 +13,8 @@
 		DE8664CB2AAEE98E00682E7C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8664CA2AAEE98E00682E7C /* AppView.swift */; };
 		DE8664CD2AAEEE3900682E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8664CC2AAEEE3900682E7C /* LaunchScreen.storyboard */; };
 		DE8664CF2AAF021C00682E7C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8664CE2AAF021C00682E7C /* HeaderView.swift */; };
+		DE8664D22AAF0EA300682E7C /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8664D12AAF0EA300682E7C /* HeaderModel.swift */; };
+		DE8664D52AAF0F1A00682E7C /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8664D42AAF0F1A00682E7C /* HeaderData.swift */; };
 		DEF6F07D2AAE876F0042E23B /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6F07C2AAE876F0042E23B /* AvocadosApp.swift */; };
 		DEF6F07F2AAE876F0042E23B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6F07E2AAE876F0042E23B /* ContentView.swift */; };
 		DEF6F0812AAE876F0042E23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF6F0802AAE876F0042E23B /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		DE8664CA2AAEE98E00682E7C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		DE8664CC2AAEEE3900682E7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE8664CE2AAF021C00682E7C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DE8664D12AAF0EA300682E7C /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		DE8664D42AAF0F1A00682E7C /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		DEF6F0792AAE876F0042E23B /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF6F07C2AAE876F0042E23B /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		DEF6F07E2AAE876F0042E23B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		DE8664D02AAF0E7F00682E7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE8664D12AAF0EA300682E7C /* HeaderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE8664D32AAF0F0000682E7C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE8664D42AAF0F1A00682E7C /* HeaderData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		DEF6F0702AAE876E0042E23B = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +97,8 @@
 		DEF6F07B2AAE876F0042E23B /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				DE8664D32AAF0F0000682E7C /* Data */,
+				DE8664D02AAF0E7F00682E7C /* Models */,
 				DE8664C32AAEE8FE00682E7C /* Views */,
 				DEF6F08C2AAEC0480042E23B /* Info.plist */,
 				DE8664CC2AAEEE3900682E7C /* LaunchScreen.storyboard */,
@@ -172,6 +194,8 @@
 				DE8664C72AAEE95500682E7C /* RipeningStagesView.swift in Sources */,
 				DEF6F07D2AAE876F0042E23B /* AvocadosApp.swift in Sources */,
 				DE8664C52AAEE93300682E7C /* AvocadosView.swift in Sources */,
+				DE8664D22AAF0EA300682E7C /* HeaderModel.swift in Sources */,
+				DE8664D52AAF0F1A00682E7C /* HeaderData.swift in Sources */,
 				DE8664CF2AAF021C00682E7C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
