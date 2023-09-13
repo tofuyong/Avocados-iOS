@@ -54,6 +54,9 @@ struct HeaderView: View {
             .onAppear(perform: {
                 self.showHeadline.toggle()
             })
+            .onDisappear(perform: {
+              showHeadline = false
+            })
         }
         .frame(width: 480, height: 320, alignment: .center)
     }
